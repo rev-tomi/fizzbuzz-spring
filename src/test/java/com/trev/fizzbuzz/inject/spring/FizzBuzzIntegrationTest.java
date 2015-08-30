@@ -42,7 +42,7 @@ public class FizzBuzzIntegrationTest extends AbstractTestNGSpringContextTests
     }
 
     @Test
-    public void testFoo()
+    public void testFizzBuzz()
     {
         // GIVEN
         when(numberProvider.getFizzBuzzNumbers()).thenReturn(IntStream.of(1, 2, 3).boxed());
